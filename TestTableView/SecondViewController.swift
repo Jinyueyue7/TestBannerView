@@ -10,27 +10,6 @@ import UIKit
 
 class SecondViewController: UIViewController {
     
-//    var timer : Timer! = Timer.scheduledTimer(timeInterval: 3, target: self, selector: #selector(autoBanner(_:)), userInfo: nil, repeats: true)
-//
-//    @objc func autoBanner(_ timer: Timer) -> Void {
-//
-//        print("定时器")
-//
-//        let offsetX = collectionView.contentOffset.x
-//
-//        let index = offsetX / view.frame.width
-//
-//        if index ==  CGFloat(dataArray.count - 2) {
-//
-//            collectionView.contentOffset.x = view.frame.width
-//
-//
-//        }else {
-//            let currentOffsetX = offsetX + view.frame.width
-//            collectionView.contentOffset.x = currentOffsetX
-//        }
-//    }
-    
     private lazy var collectionView : UICollectionView = {
         
         let layout = UICollectionViewFlowLayout()
